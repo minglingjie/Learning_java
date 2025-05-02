@@ -6,6 +6,7 @@ public class Counter {
     public Counter() {
         count++;
     }//此处为构造函数，每当创建一个新的Counter对象这个构造函数会被调用
+    //构造函数
 
     public static int getCount(){
         return count;
